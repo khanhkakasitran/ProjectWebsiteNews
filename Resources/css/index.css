@@ -1,0 +1,210 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: darkblue;
+  }
+  /* css header*/
+  header {
+    width: 75%;
+    margin-left: 200px;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+  }
+  ul.header {
+    background-color: lightblue;
+    padding: 0;
+    display: flex;
+    height: 60px;
+    margin: 0px;
+  }
+  ul.header > li {
+    border-right: 1px solid darkblue;
+    min-width: 100px;
+    text-align: center;
+  }
+  ul.header > li:last-child {
+    border-right: none;
+  }
+  ul.header > li > a {
+    padding: 10px 15px;
+    display: block;
+    margin-top: 10px;
+  }
+  ul.header > .search-box {
+    padding: 10px;
+    margin-right: 35%;
+    margin-left: 5%;
+    width: 200px;
+    float: left;
+    border: 1px solid lightblue;
+    clear: both;
+    display: flex;
+    height: 25px;
+  }
+  .search-box > a > img {
+    top: 20px;
+    margin-left: 20px;
+  }
+  .search-box > #searchkeyword {
+    border: none;
+  }
+  .logo > h1 > a > img {
+    width: 130px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+  }
+  /* css menu*/
+  .menu {
+    background-color: lightblue;
+  }
+  #btn-top {
+    width: 40px;
+    height: 40px;
+    top: 70%;
+    right: 50px;
+    background-color: lightblue;
+    position: absolute;
+    z-index: 100;
+  }
+  ul.item {
+    position: absolute;
+    top: 47px;
+    background-color: lightblue;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 5px;
+  }
+  ul.submenu {
+    padding-left: 0;
+    background-color: lightblue;
+    min-height: 50px;
+    display: none;
+  }
+  ul.submenu li a {
+    display: block;
+    line-height: 40px;
+    border-top: 1px solid darkblue;
+  }
+  ul.item > li:hover ul.submenu {
+    display: block;
+  }
+  ul.item > li {
+    border-right: 1px solid darkblue;
+    min-width: 100px;
+    text-align: center;
+  }
+  ul.item > li:last-child {
+    border-right: none;
+  }
+  ul.item > li > a {
+    padding: 10px 40px;
+    display: block;
+  }
+  /*css h2 và line*/
+  h2 {
+    color: red;
+    border: solid 1px lightblue;
+    border-radius: 10px 20px 0 5px;
+    text-align: center;
+    margin: 200px 0px 0px 200px;
+    width: 150px;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  div.line {
+    width: 75%;
+    height: 5px;
+    background-color: lightblue;
+    margin: 0px 0px 30px 200px;
+  }
+  /*css midpage*/
+  .midpage {
+    padding-left: 200px;
+    margin-top: 30px;
+    display: flex;
+  }
+  /*css news */
+  .news {
+    background-color: lightblue;
+    width: 55%;
+    height: 200px;
+    display: flex;
+  }
+  #news-content>p {
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /*css listnews*/
+  .listnews{
+    font-size: 18px;
+    width: 80%;
+  }
+  .sublist{
+    width: 75%;
+  }
+  .sublist h3{
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px 20px 0 5px;
+    text-align: center;
+    width: 150px;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  div.lines{
+    width: 90%;
+    height: 5px;
+    background-color: darkblue;
+    margin-bottom: 30px;
+  }
+  /*css slidebar*/
+  .slidebar{
+    position: absolute;
+    top: 280px;
+    right: 50px;
+    width: 20%;
+    height: 500px;
+    border: 1px solid darkblue;
+    font-size: 20px;
+  }
+  .slidebar h3{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    margin-top: 0;
+    padding-left: 30px;
+    border-bottom: 1px solid darkblue;
+  }
+  /* css footer*/
+  .footer {
+    /* margin-left: 200px;*/
+    clear: both;
+    position: relative;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 1px solid gray;
+    background-color: lightblue;
+    display: flex;
+  }
+  .fleft {
+    margin-right: 20%;
+    padding-left: 20px;
+  }
+  .fright {
+    margin-top: 45px;
+    margin-left: 20%;
+  }
+  
