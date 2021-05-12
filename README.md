@@ -1,2 +1,2 @@
-Welcome to TinTucOnline!"# ProjectWebsiteNews" 
-"# ProjectWebsiteNews"
+Welcome to TinTucOnline!
+
