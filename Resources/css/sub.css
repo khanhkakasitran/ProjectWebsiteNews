@@ -135,7 +135,7 @@ div.line {
 }
 /*css news */
 .news {
-  background-color: lightblue;
+ /* background-color: lightgray; */
   width: 70%;
   height: auto;
   display: flex;
