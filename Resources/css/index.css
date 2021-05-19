@@ -164,6 +164,9 @@
     padding: 10px;
     margin-bottom: 0;
   }
+  .sublist > dd > a{
+    color: black;
+  }
   div.lines{
     width: 90%;
     height: 5px;
